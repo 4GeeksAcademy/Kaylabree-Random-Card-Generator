@@ -1,1 +1,36 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+background {
+  background-color: green;
+}
+.card {
+  display: inline-block;
+  background-color: white;
+  margin: auto;
+  height: 400px;
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  padding-top: ;
+  font-size: 45px;
+  flex-direction: column;
+  text-align: center;
+}
+.top-suit {
+  position: absolute;
+  font-size: 40px;
+  top: 5px;
+  left: 20px;
+}
+.bottom-suit {
+  position: absolute;
+  font-size: 40px;
+  bottom: 5px;
+  right: 20px;
+}
+.number {
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+}
